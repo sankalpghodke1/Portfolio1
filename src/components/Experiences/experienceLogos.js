@@ -1,4 +1,4 @@
 
-import celebel from "../../Assets/experiences/gvl.png";
+import celebel from "../../Assets/experiences/enerture.png";
 
 export { celebel };

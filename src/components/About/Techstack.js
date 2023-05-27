@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import myImg from "../../Assets/Automobile.jpg";
+import myImg1 from "../../Assets/ansys.png";
 import {
   DiJavascript1,
   DiReact,
@@ -47,9 +49,9 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <img src={myImg} className="img-fluid" alt="avatar" />
         <h6>
-          <strong className="purple">MongoDB</strong>
+          <strong className="purple">Automobile</strong>
         </h6>
       </Col>
 
@@ -68,9 +70,9 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <img src={myImg1} className="img-fluid" alt="avatar" />
         <h6>
-          <strong className="purple">Firebase</strong>
+          <strong className="purple">Ansys</strong>
         </h6>
       </Col>
 
